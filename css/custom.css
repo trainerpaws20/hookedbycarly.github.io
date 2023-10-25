@@ -57,8 +57,23 @@ body {
 h2 {
     color: rgba(252, 161, 134, 1);
     margin-top: 0px;
+    text-align: center;
 }
 
+h3 {
+    color: rgba(252, 161, 134, 1);
+    text-align: center;
+}
+
+#custom-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /* Start of Footer */
 
