@@ -1,8 +1,10 @@
+/* Start of Header */
+
 header {
     background-color: rgba(51, 60, 101, 1);
     margin: 0px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 30px;
     padding-bottom: 30px;
     color: white;
@@ -27,6 +29,8 @@ nav ul {
     list-style: none;
     
 }
+
+/* End of Header */
 
 body {
     background-color: white;
@@ -54,14 +58,14 @@ button {
 }
 
 #intro {
-    padding-left: 60px;    
+    padding-left: 80px;    
     display: flex;
     align-items: center;
 }
 
 #intro-left {
     width: 50%;
-    padding-right: 35px;  
+    padding-right: 50px;  
 }
 
 #intro-right {
@@ -80,7 +84,10 @@ button {
 
 #home-custom {
     background-color: rgba(112, 66, 105, 1);
-    padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,17 +97,17 @@ button {
     background-color: white;
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
     text-align: center;
 }
 
 #home-about {
     background-color: rgba(114, 100, 161, 1);
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,5 +131,20 @@ button {
 
 #about-white p {
     margin-top: 0px;
+}
+
+/* Start of Footer */
+
+footer {
+    background-color: rgba(51, 60, 101, 1);
+    margin: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
