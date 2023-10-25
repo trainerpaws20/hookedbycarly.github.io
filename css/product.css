@@ -54,10 +54,16 @@ body {
     margin: 0px;
 }
 
+section {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 h2 {
     color: rgba(252, 161, 134, 1);
     margin-top: 0px;
-    text-align: center;
 }
 
 h3 {
@@ -65,12 +71,12 @@ h3 {
 }
 
 #product-links {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 .product-link {
-    width: 30%;
     text-align: center;
 }
 
