@@ -40,7 +40,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgba(252, 161, 134, 1);
+    color: rgba(51, 60, 101, 1);
     font-weight: bolder;
 }
 
@@ -59,6 +59,20 @@ section {
     padding-right: 80px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+section a:link {
+    color: rgba(252, 161, 134, 1);
+    text-decoration: none;
+}
+
+section a:visited {
+    color: rgba(234, 108, 120, 1);
+}
+
+section  a:hover {
+    color: rgba(252, 161, 134, 1);
+    font-weight: bolder;
 }
 
 h2 {
