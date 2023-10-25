@@ -30,6 +30,21 @@ nav ul {
     
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(234, 108, 120, 1);
+}
+
+a:hover {
+    color: rgba(252, 161, 134, 1);
+    font-weight: bolder;
+}
+
+
 /* End of Header */
 
 body {
