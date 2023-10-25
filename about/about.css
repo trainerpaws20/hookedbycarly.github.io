@@ -47,14 +47,15 @@ body {
 
 section {
     padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
-    justify-content: space-between;
 }
 
 img {
     max-height: 600px;
+    padding-right: 100px;
 }
 
 /* Start of Footer */
