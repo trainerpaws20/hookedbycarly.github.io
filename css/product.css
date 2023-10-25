@@ -60,6 +60,25 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: rgba(252, 161, 134, 1);
+}
+
+#product-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-link {
+    width: 30%;
+    text-align: center;
+}
+
+.product-link img {
+    max-width: 300px;
+    min-width: 100px;
+}
+
 /* Start of Footer */
 
 footer {
