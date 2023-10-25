@@ -1,7 +1,10 @@
 header {
     background-color: rgba(51, 60, 101, 1);
     margin: 0px;
-    padding: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -34,6 +37,7 @@ body {
 
 h2 {
     color: rgba(252, 161, 134, 1);
+    margin-top: 0px;
 }
 
 button {
@@ -50,17 +54,44 @@ button {
 }
 
 #intro {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;    
     display: flex;
+    align-items: center;
 }
 
 #intro-left {
     width: 50%;
+    padding-right: 35px;  
 }
 
 #intro-right {
     width: 50%;
-    background-image: ;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#intro-right img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#home-custom {
+    background-color: rgba(112, 66, 105, 1);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#custom-white {
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
 
