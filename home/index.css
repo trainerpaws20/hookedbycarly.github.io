@@ -1,21 +1,28 @@
 header {
     background-color: rgba(51, 60, 101, 1);
     margin: 0px;
+    padding: 50px;
     color: white;
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    justify-content: space-between;
     align-items: center;
 }
 
+header h1 {
+    margin: 0px;
+}
 
 
-ul {
+nav {
+    width: 70%;
+}
+
+nav ul {
     font-size: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none;
+    
 }
 
 body {
