@@ -32,3 +32,35 @@ body {
     margin: 0px;
 }
 
+h2 {
+    color: rgba(252, 161, 134, 1);
+}
+
+button {
+    background-color: rgba(234, 108, 120, 1);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#intro {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+}
+
+#intro-left {
+    width: 50%;
+}
+
+#intro-right {
+    width: 50%;
+    background-image: ;
+}
+
