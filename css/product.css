@@ -61,17 +61,25 @@ section {
     padding-bottom: 40px;
 }
 
-section a:link {
-    color: rgba(234, 108, 120, 1);
+#products a:link {
+    color: rgba(252, 161, 134, 1);
     text-decoration: none;
 }
 
-section a:visited {
-    color: rgba(114, 100, 161, 1)
+#products a:visited {
+    color: rgba(114, 100, 161, 1);
 }
 
-section  a:hover {
+#products a:hover {
     color: rgba(234, 108, 120, 1);
+}
+
+button:hover {
+    background-color: rgba(114, 100, 161, 1);;
+}
+
+button a:link, button a:visited {
+    color: white;
 }
 
 h2 {
